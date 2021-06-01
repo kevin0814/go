@@ -46,7 +46,7 @@ func main() {
 	fmt.Println("--- json to map ---")
 	fmt.Println("map data :", res2)
 
-	//编辑 删除
+	//编辑 删除  表示
 	person := map[int]string{
 		1 : "Tom",
 		2 : "Aaron",

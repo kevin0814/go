@@ -41,6 +41,6 @@ func main(){
 	 //map 映射 键值对 var mapname map[keytype]valuetype
 	 //初始化列表 container/list
 	//变量名 := list.New()
-	// var 变量名 list.List
+	// var 变量名 list.List 
 
 }

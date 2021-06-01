@@ -22,7 +22,7 @@ func main() {
 	var Pupil Student
 	p := reflect.ValueOf(Pupil) // 使用ValueOf()获取到结构体的Value对象
 
-	fmt.Println(p.Type()) // 输出:Student
+	fmt.Println(p.Type()) // 输出:Student 
 	fmt.Println(p.Kind()) // 输出:struct
 
 }

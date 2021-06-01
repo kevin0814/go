@@ -7,7 +7,7 @@ func main() {
 	var ptra *int         // 声明指针变量
 	var ptrb *int = &b
 
-	ptra = &a // 指针变量的存储地址
+	ptra = &a // 指针变量的存储地址 1
 
 	fmt.Printf("a  变量的地址是: %x\n", &a)
 	fmt.Printf("b  变量的地址是: %x\n", &b)

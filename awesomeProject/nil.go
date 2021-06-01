@@ -4,7 +4,7 @@ import "fmt"
 
 func main(){
 	//fmt.PrintIn(nil==nil)
-	fmt.Printf("%T\n",nil)
+	fmt.Printf("%T\n",nil) //go 中空变量的表示
 	//print(nil)
 
 	var arr []int

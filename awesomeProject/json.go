@@ -19,7 +19,7 @@ func main() {
 	}
 	fmt.Println(string(b))
 
-	// 格式化输出
+	// 格式化输出 json 包使用
 	b, err = json.MarshalIndent(p, "", "     ")
 	if err != nil {
 		fmt.Println("json err ", err)

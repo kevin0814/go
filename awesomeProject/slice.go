@@ -6,13 +6,14 @@ import (
 
 func main (){
 	var  a =[3] int{1,2,3}
-	fmt.Println(a,a[2:3])
+	fmt.Println(a,a[2:3])  
+	
 
 	var sli_1 [] int //nil 切片
 	fmt.Printf("len=%d cap=%d slice=%v \n",len(sli_1),cap(sli_1),sli_1)
 	var highRiseBuilding [30]int
 
-	for i :=0;i<30; i++ {
+	for i :=0;i<30; i++ { //赋值
 		highRiseBuilding[i] =i+1
 	}
 	fmt.Println(highRiseBuilding)

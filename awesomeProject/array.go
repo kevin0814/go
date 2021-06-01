@@ -33,7 +33,7 @@ fmt.Printf("%T \n",q)
 	 for k,v :=range team{
 	 	fmt.Println(k,v)
 	 }
-   //多维数组 命名
+   //多维数组 命名 方式
 	array := [4][2]int{{10, 11}, {20, 21}, {30, 31}, {40, 41}}
 	fmt.Println(array)
 	//指定数组索引 1和3的元素

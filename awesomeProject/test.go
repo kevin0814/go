@@ -9,6 +9,7 @@ import (
 type NewInt int
 // 将int取一个别名叫IntAlias
 type IntAlias = int
+
 func main() {
 	// 将a声明为NewInt类型
 	var a NewInt

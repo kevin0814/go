@@ -5,7 +5,7 @@ import (
 
 func main (){
 	//切片
-	var str [] int
-
+	var str [] int 
+      
 	fmt.Printf("slice=%v",str)
 }

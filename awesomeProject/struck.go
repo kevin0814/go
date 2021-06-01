@@ -13,7 +13,7 @@ import ("fmt"
 		p1.Name = "Tom"
 		p1.Age  = 30
 		fmt.Println("p1 =", p1)
-
+               //结构体 赋值
 		var p2 = Person{Name:"Burke", Age:31}
 		fmt.Println("p2 =", p2)
 

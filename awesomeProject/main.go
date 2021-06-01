@@ -13,7 +13,7 @@ type Person struct {
 }
 
 func sayHello(w http.ResponseWriter, r *http.Request){
-      _,_ =fmt.Fprintln(w,"hello golang")
+      _,_ =fmt.Fprintln(w,"hello golang") //
 }
 func main() {
 	http.HandleFunc("/hello",sayHello)

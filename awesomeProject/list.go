@@ -6,7 +6,7 @@ import ("container/list"
 
 func main(){
 	var vaLis list.List
-	//双链表支持从队列前方或后方插入元素，分别对应的方法是 PushFront 和 PushBack。
+	//双链表支持从队列前方或后方插入元素，分别对应的方法是 PushFront 前链接和 PushBack 后链接。
 	//l := list.New()
 	vaLis.PushBack("fist")
 	vaLis.PushFront(67)

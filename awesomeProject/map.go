@@ -26,7 +26,7 @@ func main(){
 	scene["kev"] =1
 	scene["vvv"] =3
 	scene["wew"] =5
-
+       //11
 	for k,v :=range scene{
 		fmt.Println(k,v)
 	}
@@ -37,11 +37,11 @@ func main(){
 		fmt.Printf("Index: %d Value: %d\n", index, slice[index])
 	}
 	scenes := make(map[string]int)
-	// 准备map数据
+	// 准备map数据 
 	scenes["route"] = 66
 	scenes["brazil"] = 4
 	scenes["china"] = 960
-	delete(scenes, "brazil")
+	delete(scenes, "brazil") 
 	for k, v := range scenes {
 		fmt.Println(k, v)
 	}

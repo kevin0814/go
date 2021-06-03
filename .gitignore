@@ -1,6 +1,0 @@
-/.idea
-*.exe~
-/storage/app/public/*
-/storage/logs/*
-/config/app.ini
-nohup.out
